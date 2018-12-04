@@ -13,10 +13,11 @@ class Navbar extends Component {
 
     render() {
         return(
-            <div className="appnav text-center">
+            <div className="appnav">
                 <ul>
                     <li>Home</li>
                     <li>About Us</li>
+                    <li style={{float:'right'}}>Help</li>
                 </ul>
             </div>
         )

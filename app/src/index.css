@@ -16,12 +16,11 @@ code {
 .appnav {
   background-color: gray;
   color: white;
-  margin: 50;
-  padding: 20px;
+  padding: 15px;
 }
 
 li {
-  float: left;
-  display: block;
-  margin: 5px;
+  display: inline;
+  vertical-align: middle;
+  margin-right: 40px;
 }
