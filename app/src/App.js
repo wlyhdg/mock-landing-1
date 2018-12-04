@@ -10,16 +10,27 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Welcome to our sample home page.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <div className="inline">
+            <a
+              className="App-link"
+              href="https://github.com/wlyhdg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              wlyhdg
+            </a>
+            &nbsp;|&nbsp;
+            <a
+              className="App-link"
+              href="https://github.com/antofon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              antofon
+            </a>
+          </div>
         </header>
       </div>
     );

@@ -15,7 +15,13 @@ code {
 
 .appnav {
   background-color: gray;
-  color: goldenrod;
-  margin: 0;
-  padding: 0;
+  color: white;
+  margin: 50;
+  padding: 20px;
+}
+
+li {
+  float: left;
+  display: block;
+  margin: 5px;
 }

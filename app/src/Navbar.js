@@ -14,7 +14,10 @@ class Navbar extends Component {
     render() {
         return(
             <div className="appnav text-center">
-                This is a placeholder for the Navbar.
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                </ul>
             </div>
         )
     }
