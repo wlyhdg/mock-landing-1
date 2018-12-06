@@ -14,7 +14,6 @@ class Navbar extends Component {
     }
 
     aItemWasClicked(e) {
-        console.log(e.target.getAttribute('href'))
         this.setState({
             clickedAnchor: e.target.getAttribute('href')
         })
