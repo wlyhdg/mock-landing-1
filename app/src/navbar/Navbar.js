@@ -7,14 +7,29 @@ import NavItem from './NavItem'
 class Navbar extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            clickedAnchor: null
+        }
+        this.aItemWasClicked = this.aItemWasClicked.bind(this);
+    }
+
+    aItemWasClicked(e) {
+        console.log(e.target.getAttribute('href'))
+        this.setState({
+            clickedAnchor: e.target.getAttribute('href')
+        })
     }
 
     render() {
         let headers = ['Home', 'News', 'Contact', 'About']
         return(
             <div className="topnav">
-                {headers.map((header, index) => {
-                    return <NavItem name={header} key={'navitem-key-' + header}/>
+                {headers.map((header, idx) => {
+                    return <NavItem onClick={this.aItemWasClicked}
+                    name={header} 
+                    key={'navitem-key-' + header} 
+                    clickedOne= {this.state.clickedAnchor}
+                    />
                 })}
             </div> 
         );
