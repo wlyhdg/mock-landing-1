@@ -15,13 +15,32 @@ code {
 
 .appnav {
   background-color: gray;
-  color: white;
-  margin: 50;
-  padding: 20px;
 }
 
-li {
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(5, 41, 65);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
   float: left;
-  display: block;
-  margin: 5px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #61dafb;
+  color: white;
 }
