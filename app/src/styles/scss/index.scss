@@ -1,0 +1,33 @@
+@import "./partials/reset";
+@import "./partials/variables";
+
+.app {
+  //   background-color: gray;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  background: blue;
+}
+
+// NAVBAR COMPONENT
+
+.nav-title {
+  font-size: 8vw;
+  margin-top: 8vw;
+  font-family: $noto;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 667px) {
+  .nav-title {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 1008px) {
+  .nav-title {
+    font-size: 2vw;
+  }
+}
